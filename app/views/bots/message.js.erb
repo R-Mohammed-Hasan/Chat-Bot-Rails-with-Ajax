@@ -1,0 +1,21 @@
+<%# function send() { %>
+    <%# let input = document.getElementById("inputChat").value;
+    if (input == "") {
+        return;
+    } else {
+        let request = document.createElement("div");
+        request.className = "request";
+        request.innerText = input;
+        document.getElementsByClassName("main")[0].appendChild(request);
+        document.getElementById("inputChat").value = "";
+      
+        let scrollHeight = document.getElementsByClassName("main")[0].scrollHeight;
+        document.getElementsByClassName("main")[0].scrollTop = scrollHeight + 100;
+    } %>
+<%# } %>
+
+<%# $('.random-number').html("<%= j (render partial: 'random') %>
+
+console.log("hi");
+alert("hi");
+$(".main").append("<%= j render partial: 'message', locals: {message: ,class:  }%>) ;
